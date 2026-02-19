@@ -1,0 +1,184 @@
+﻿/* =========================
+   RESET
+========================= */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    overflow: hidden;
+}
+
+/* =========================
+   LAYOUT
+========================= */
+.app-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+.sidebar {
+    width: 260px;
+    background: linear-gradient(180deg, #1e1e2f, #252542);
+    color: white;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    color: #ddd;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: background .2s ease, color .2s ease;
+}
+
+    .menu-item:hover {
+        background: rgba(255,255,255,0.1);
+        color: #fff;
+    }
+
+/* =========================
+   MAIN CONTENT
+========================= */
+.main-content {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+}
+
+/* =========================
+   QR FULLSCREEN
+========================= */
+.qr-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* =========================
+   READER (HTML5-QRCODE)
+========================= */
+#reader {
+    width: 100%;
+    height: 100%;
+}
+
+    #reader > div {
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #reader video {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+/* =========================
+   OVERLAY
+========================= */
+.scanner-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.scanner-frame {
+    width: calc(100% - 120px);
+    height: calc(100% - 120px);
+    max-width: none;
+    max-height: none;
+    border: 4px solid rgba(0,255,150,.95);
+    border-radius: 24px;
+    box-shadow: 0 0 60px rgba(0,255,150,.7);
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* =========================
+   LINEA SCAN
+========================= */
+.scan-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient( 90deg, transparent, #00ff99, transparent );
+    animation: scan 2s linear infinite;
+}
+
+@keyframes scan {
+    from {
+        top: 0;
+    }
+
+    to {
+        top: calc(100% - 4px);
+    }
+}
+
+/* =========================
+   ALERTA
+========================= */
+.scan-alert {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,255,150,.95);
+    color: #003b28;
+    padding: 30px 50px;
+    font-size: 26px;
+    font-weight: bold;
+    border-radius: 14px;
+    box-shadow: 0 0 45px rgba(0,255,150,.9);
+    z-index: 20;
+    text-align: center;
+}
+
+/* =========================
+   UTILIDADES
+========================= */
+.d-none {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    .scanner-frame {
+        width: calc(100% - 40px);
+        height: calc(100% - 40px);
+        border-radius: 18px;
+    }
+}

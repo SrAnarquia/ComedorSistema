@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\nueva carpeta\\comedorsistema\\wwwroot\\css\\qr-layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|solutionrelative:wwwroot\\css\\qr-layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\nueva carpeta\\comedorsistema\\wwwroot\\js\\qr-lector.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|solutionrelative:wwwroot\\js\\qr-lector.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\nueva carpeta\\comedorsistema\\views\\lectorgenerador\\lectura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|solutionrelative:views\\lectorgenerador\\lectura.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\nueva carpeta\\comedorsistema\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\nueva carpeta\\comedorsistema\\models\\viewmodels\\lecturaqrvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|solutionrelative:models\\viewmodels\\lecturaqrvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\nueva carpeta\\comedorsistema\\controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37EAF4A7-BF7A-4326-9FFC-94004C00485F}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LecturaQrVm.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Models\\ViewModels\\LecturaQrVm.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\LecturaQrVm.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Models\\ViewModels\\LecturaQrVm.cs",
+              "RelativeToolTip": "Models\\ViewModels\\LecturaQrVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:28:39.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LectorGeneradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LectorGeneradorController.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
+              "RelativeToolTip": "Controllers\\LectorGeneradorController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T18:28:28.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T17:51:44.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "qr-layout.css",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\wwwroot\\css\\qr-layout.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\qr-layout.css",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\wwwroot\\css\\qr-layout.css",
+              "RelativeToolTip": "wwwroot\\css\\qr-layout.css",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAYwHYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-18T17:48:22.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "qr-lector.js",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\wwwroot\\js\\qr-lector.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\qr-lector.js",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\wwwroot\\js\\qr-lector.js",
+              "RelativeToolTip": "wwwroot\\js\\qr-lector.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-02-18T17:47:50.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lectura.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Views\\LectorGenerador\\Lectura.cshtml",
+              "RelativeDocumentMoniker": "Views\\LectorGenerador\\Lectura.cshtml",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\Nueva carpeta\\ComedorSistema\\Views\\LectorGenerador\\Lectura.cshtml",
+              "RelativeToolTip": "Views\\LectorGenerador\\Lectura.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-18T17:46:56.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

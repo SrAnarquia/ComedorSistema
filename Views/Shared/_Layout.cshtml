@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - QR</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <link href="~/css/qr-layout.css" rel="stylesheet" />
+    @RenderSection("Styles", false)
+</head>
+<body>
+
+    <div class="app-container">
+
+        <aside class="sidebar">
+            <h5 class="logo">QR System</h5>
+
+            <a asp-action="Lectura" asp-controller="LectorGenerador" class="menu-item">
+                <i class="bi bi-upc-scan"></i>
+                <span>Leer QR</span>
+            </a>
+
+            <a asp-action="Crear" asp-controller="LectorGenerador" class="menu-item">
+                <i class="bi bi-qr-code"></i>
+                <span>Crear QR</span>
+            </a>
+
+            <a asp-action="Index" asp-controller="LectorGenerador" class="menu-item">
+                <i class="bi bi-list-check"></i>
+                <span>Mis solicitudes</span>
+            </a>
+        </aside>
+
+        <main class="main-content">
+            @RenderBody()
+        </main>
+
+    </div>
+
+    @RenderSection("Scripts", false)
+</body>
+</html>
