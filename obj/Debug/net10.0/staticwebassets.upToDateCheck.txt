@@ -1,5 +1,7 @@
+wwwroot\css\qr-Lectura.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\qr-admin.js
 wwwroot\js\qr-lector.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -63,67 +65,69 @@ wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\css\qr-layout.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\css\site.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\favicon.ico
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\js\qr-lector.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\js\site.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.min.js
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.min.map
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\wwwroot\css\qr-layout.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-Lectura.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\site.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\favicon.ico
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-admin.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-lector.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\site.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-layout.css

@@ -1,40 +1,42 @@
 ﻿let leyendo = false;
+let ultimoScan = 0;
 
 const qr = new Html5Qrcode("reader");
 
 qr.start(
     { facingMode: "environment" },
     {
-        fps: 10,
-        // ❌ NO qrbox
-        // 👉 así escanea TODA la cámara
+        fps: 8,
+        disableFlip: true,
         experimentalFeatures: {
             useBarCodeDetectorIfSupported: true
         }
     },
-    (qrCodeMessage) => {
+    async (qrCodeMessage) => {
 
-        if (leyendo) return;
+        if (window.adminActivo) return;
+
+        const ahora = Date.now();
+        if (leyendo || ahora - ultimoScan < 120000) return;
+
         leyendo = true;
+        ultimoScan = ahora;
 
-        fetch('/LectorGenerador/RegistrarLectura', {
+        const res = await fetch('/LectorGenerador/RegistrarLectura', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                codigoQr: qrCodeMessage,
-                fechaLectura: new Date()
-            })
-        })
-            .then(r => r.json())
-            .then(r => {
+            body: JSON.stringify({ codigoQr: qrCodeMessage })
+        });
 
-                const alert = document.getElementById("alertOk");
-                alert.innerText = r.mensaje;
-                alert.classList.remove("d-none");
+        const data = await res.json();
 
-                setTimeout(() => {
-                    location.reload();
-                }, 3000);
-            });
+        const alert = document.getElementById("alertOk");
+        alert.innerText = data.mensaje;
+        alert.classList.remove("d-none");
+
+        setTimeout(() => {
+            leyendo = false;
+            alert.classList.add("d-none");
+        }, 2000);
     }
 );

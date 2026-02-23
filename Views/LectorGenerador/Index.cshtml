@@ -1,19 +1,75 @@
-﻿@{
-    ViewData["Title"] = "Mis Solicitudes";
+﻿@model List<PedidoComidum>
+
+@{
+    ViewData["Title"] = "Consumos";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
 
-<h4>Mis Solicitudes</h4>
+<div class="filter-card mb-3 p-3 border rounded bg-light">
+    <form method="get" class="d-flex gap-2 align-items-end">
+        <div>
+            <label class="form-label">Fecha inicio</label>
+            <input type="date"
+                   name="fechaInicio"
+                   value="@Context.Request.Query["fechaInicio"]"
+                   class="form-control" />
+        </div>
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>QR</th>
-            <th>Fecha</th>
-            <th>Acciones</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Aquí luego renderizas desde BD -->
-    </tbody>
-</table>
+        <div>
+            <label class="form-label">Fecha fin</label>
+            <input type="date"
+                   name="fechaFin"
+                   value="@Context.Request.Query["fechaFin"]"
+                   class="form-control" />
+        </div>
+
+        <div>
+            <button type="submit" class="btn btn-primary mt-4">
+                <i class="bi bi-search"></i> Filtrar
+            </button>
+
+            <a asp-action="ExportarExcel"
+               asp-route-fechaInicio="@Context.Request.Query["fechaInicio"]"
+               asp-route-fechaFin="@Context.Request.Query["fechaFin"]"
+               class="btn btn-outline-success mt-4">
+                <i class="bi bi-file-earmark-excel"></i> Exportar
+            </a>
+        </div>
+    </form>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Nombre</th>
+                <th>Departamento</th>
+                <th>Fecha</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>@item.Departamento</td>
+                        <td>@item.FechaCreacion?.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td>@item.Precio</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" class="text-center text-muted">
+                        No hay registros para el rango seleccionado
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

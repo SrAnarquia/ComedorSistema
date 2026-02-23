@@ -1,184 +1,100 @@
-﻿/* =========================
-   RESET
-========================= */
-* {
-    box-sizing: border-box;
-}
-
-html, body {
+﻿html, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #f4f6f9;
+    background: radial-gradient(circle at top, #1e1e2f, #0f0f1a);
     overflow: hidden;
 }
 
-/* =========================
-   LAYOUT
-========================= */
 .app-container {
     display: flex;
-    width: 100%;
     height: 100vh;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
+/* ================= SIDEBAR ================= */
 .sidebar {
+    position: relative;
     width: 260px;
     background: linear-gradient(180deg, #1e1e2f, #252542);
-    color: white;
     padding: 20px;
-    flex-shrink: 0;
+    transition: transform .3s ease;
 }
 
-.logo {
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 600;
-    letter-spacing: 1px;
+    /* Colapsado */
+    .sidebar.collapsed {
+        transform: translateX(-100%);
+    }
+
+/* BURGER */
+.sidebar-burger {
+    position: absolute;
+    top: 20px;
+    right: -52px; /* se asoma */
+    background: rgba(30,30,47,.95);
+    border: none;
+    color: #fff;
+    font-size: 26px;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    cursor: pointer;
+    z-index: 3000;
 }
 
 .menu-item {
     display: flex;
     align-items: center;
-    gap: 12px;
-    padding: 12px;
+    gap: 14px;
+    padding: 14px;
     color: #ddd;
     text-decoration: none;
-    border-radius: 8px;
-    margin-bottom: 8px;
-    transition: background .2s ease, color .2s ease;
+    border-radius: 12px;
+    margin-bottom: 10px;
 }
 
     .menu-item:hover {
-        background: rgba(255,255,255,0.1);
+        background: rgba(255,255,255,.12);
         color: #fff;
     }
 
-/* =========================
-   MAIN CONTENT
-========================= */
+/* ================= MAIN ================= */
 .main-content {
     flex: 1;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
-    background: black;
+    display: flex;
+    flex-direction: column;
 }
 
-/* =========================
-   QR FULLSCREEN
-========================= */
-.qr-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-/* =========================
-   READER (HTML5-QRCODE)
-========================= */
-#reader {
-    width: 100%;
-    height: 100%;
-}
-
-    #reader > div {
-        width: 100% !important;
-        height: 100% !important;
-    }
-
-    #reader video {
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: cover;
-    }
-
-/* =========================
-   OVERLAY
-========================= */
-.scanner-overlay {
-    position: absolute;
-    inset: 0;
+/* ================= TOPBAR ================= */
+.topbar {
+    height: 64px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    pointer-events: none;
-    z-index: 10;
+    padding: 0 20px;
+    gap: 14px;
+    background: rgba(30,30,47,.95);
+    backdrop-filter: blur(8px);
 }
 
-.scanner-frame {
-    width: calc(100% - 120px);
-    height: calc(100% - 120px);
-    max-width: none;
-    max-height: none;
-    border: 4px solid rgba(0,255,150,.95);
-    border-radius: 24px;
-    box-shadow: 0 0 60px rgba(0,255,150,.7);
-    position: relative;
-    overflow: hidden;
+.btn-admin {
+    margin-left: auto;
+    background: rgba(255,255,255,.08);
+    border: none;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 10px;
 }
 
-
-/* =========================
-   LINEA SCAN
-========================= */
-.scan-line {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient( 90deg, transparent, #00ff99, transparent );
-    animation: scan 2s linear infinite;
+/* ================= ADMIN MODE ================= */
+.admin-mode {
+    outline: 4px solid #ff0033;
 }
 
-@keyframes scan {
-    from {
-        top: 0;
-    }
-
-    to {
-        top: calc(100% - 4px);
-    }
-}
-
-/* =========================
-   ALERTA
-========================= */
-.scan-alert {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0,255,150,.95);
-    color: #003b28;
-    padding: 30px 50px;
-    font-size: 26px;
-    font-weight: bold;
-    border-radius: 14px;
-    box-shadow: 0 0 45px rgba(0,255,150,.9);
-    z-index: 20;
-    text-align: center;
-}
-
-/* =========================
-   UTILIDADES
-========================= */
-.d-none {
-    display: none !important;
-}
-
-@media (max-width: 768px) {
-    .scanner-frame {
-        width: calc(100% - 40px);
-        height: calc(100% - 40px);
-        border-radius: 18px;
-    }
+#adminHotspot {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    z-index: 9999;
 }
