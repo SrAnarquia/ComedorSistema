@@ -43,6 +43,7 @@
     <table class="table table-hover table-bordered">
         <thead class="table-dark">
             <tr>
+                <th>Id</th>
                 <th>Nombre</th>
                 <th>Departamento</th>
                 <th>Fecha</th>
@@ -55,6 +56,7 @@
                 foreach (var item in Model)
                 {
                     <tr>
+                        <td>@item.IdPersona</td>
                         <td>@item.Nombre</td>
                         <td>@item.Departamento</td>
                         <td>@item.FechaCreacion?.ToString("dd/MM/yyyy HH:mm")</td>

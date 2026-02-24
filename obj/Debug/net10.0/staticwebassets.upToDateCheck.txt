@@ -1,9 +1,17 @@
+wwwroot\audio\Alert.mp3
+wwwroot\audio\Success.mp3
+wwwroot\css\qr-layout-Lectura.css
+wwwroot\css\qr-layout.css
 wwwroot\css\qr-Lectura.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\qr-admin.js
+wwwroot\js\qr-autozoom.js
+wwwroot\js\qr-efectos.js
+wwwroot\js\qr-lector-Mobile.js
 wwwroot\js\qr-lector.js
 wwwroot\js\site.js
+wwwroot\js\_Layout.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -64,13 +72,16 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\qr-layout.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-layout-Lectura.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-layout.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-Lectura.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\site.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\favicon.ico
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-admin.js
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-lector.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-autozoom.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-efectos.js
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\site.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\_Layout.js
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -130,4 +141,5 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jque
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-layout.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-lector-Mobile.js
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\js\qr-lector.js

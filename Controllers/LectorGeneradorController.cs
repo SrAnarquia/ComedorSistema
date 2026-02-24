@@ -106,11 +106,11 @@ namespace ComedorSistema.Controllers
 
             if (ultimoRegistro != null &&
                 ultimoRegistro.FechaCreacion.HasValue &&
-                (DateTime.Now - ultimoRegistro.FechaCreacion.Value).TotalMinutes < 2)
+                (DateTime.Now - ultimoRegistro.FechaCreacion.Value).TotalMinutes < 1)
             {
-                return Ok(new
+                return BadRequest(new
                 {
-                    mensaje = "⚠️ Ya registraste un consumo recientemente. Espera 2 minutos."
+                    mensaje = $"⚠️ Ya registraste un consumo recientemente. Espera 1 minuto."
                 });
             }
 

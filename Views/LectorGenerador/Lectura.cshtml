@@ -1,6 +1,10 @@
 ﻿@{
     ViewData["Title"] = "Lectura QR";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutQRLectura.cshtml";
+}
+
+@section Styles {
+    <link href="~/css/qr-lectura.css" rel="stylesheet" />
 }
 
 <div class="qr-fullscreen">
@@ -11,13 +15,14 @@
         <div class="scanner-frame"></div>
     </div>
 
-    <div id="alertOk" class="scan-alert d-none">
-        QR detectado ✔
-    </div>
+    <!-- MENSAJE DINAMICO -->
+    <div id="alertOk" class="scan-alert d-none"></div>
 
 </div>
 
 @section Scripts {
     <script src="https://unpkg.com/html5-qrcode"></script>
-    <script src="~/js/qr-lector.js"></script>
+    <script src="~/js/qr-lector-Mobile.js"></script>
+    <script src="~/js/qr-admin.js"></script>
+    <script src="~/js/qr-efectos.js"></script>
 }

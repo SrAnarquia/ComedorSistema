@@ -2,77 +2,83 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>@ViewData["Title"] - QR</title>
+    <title>@ViewData["Title"] - Sistema QR</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
 
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS Principal -->
     <link href="~/css/qr-layout.css" rel="stylesheet" />
-    @RenderSection("Styles", false)
-</head>
 
+    @RenderSection("Styles", required: false)
+</head>
 <body>
 
     <div class="app-container">
 
         <!-- SIDEBAR -->
-        <aside class="sidebar collapsed">
+        <aside class="sidebar" id="sidebar">
 
-            <!-- BURGER -->
-            <button id="burgerBtn" class="burger-btn sidebar-burger">
-                <i class="bi bi-list"></i>
-            </button>
+            <div class="sidebar-header">
+                <button id="btnToggle" class="btn-toggle">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
 
-            <a asp-action="Lectura"
-               asp-controller="LectorGenerador"
-               class="menu-item">
-                <i class="bi bi-upc-scan"></i>
-                <span>Leer QR</span>
-            </a>
+            <nav class="sidebar-menu">
 
-            <a asp-action="Index"
-               asp-controller="LectorGenerador"
-               class="menu-item">
-                <i class="bi bi-clipboard-data"></i>
-                <span>Mis solicitudes</span>
-            </a>
+                <a asp-controller="LectorGenerador" asp-action="Lectura" class="menu-item">
+                    <i class="bi bi-qr-code-scan"></i>
+                    <span>Lectura QR</span>
+                </a>
+
+                <a asp-controller="LectorGenerador" asp-action="Index" class="menu-item">
+                    <i class="bi bi-table"></i>
+                    <span>Registros</span>
+                </a>
+
+            </nav>
 
         </aside>
 
-        <!-- CONTENIDO -->
-        <main class="main-content">
+        <!-- MAIN -->
+        <div class="main-content" id="mainContent">
 
             <!-- TOPBAR -->
             <header class="topbar">
 
-                <button id="btnAdmin" class="btn-admin">
-                    <i class="bi bi-shield-lock"></i>
-                </button>
+                <div class="topbar-left">
+                    <h6 class="m-0">Sistema de Control QR</h6>
+                </div>
 
-                <div id="adminHotspot"></div>
+                <div class="topbar-right">
+
+                    
+
+                </div>
+
             </header>
 
-            @RenderBody()
+            <!-- CONTENIDO -->
+            <main class="content">
+                @RenderBody()
+            </main>
 
-        </main>
+        </div>
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Hotspot invisible -->
+    <div id="adminHotspot"></div>
 
-    <script>
-        const burgerBtn = document.getElementById("burgerBtn");
-        const sidebar = document.querySelector(".sidebar");
+    @RenderSection("Scripts", required: false)
 
-        burgerBtn.addEventListener("click", () => {
-            sidebar.classList.toggle("collapsed");
-        });
-    </script>
-
-    <!-- Script Admin (NO TOCAR) -->
-    <script src="~/js/qr-admin.js"></script>
-
-    @RenderSection("Scripts", false)
+    <script src="~/js/_Layout.js"></script>
 
 </body>
 </html>
