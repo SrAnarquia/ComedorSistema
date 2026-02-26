@@ -1,105 +1,6 @@
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.AssemblyInfoInputs.cache
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.AssemblyInfo.cs
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.csproj.CoreCompileInputs.cache
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.RazorAssemblyInfo.cache
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.RazorAssemblyInfo.cs
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\appsettings.Development.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\appsettings.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\ComedorSistema.staticwebassets.runtime.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\ComedorSistema.staticwebassets.endpoints.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\ComedorSistema.exe
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\ComedorSistema.deps.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\ComedorSistema.runtimeconfig.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\ComedorSistema.dll
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\bin\Debug\net10.0\ComedorSistema.pdb
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\scopedcss\bundle\ComedorSistema.styles.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\scopedcss\projectbundle\ComedorSistema.bundle.scp.css
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\1fcjditcu6-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\fli002t8of-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\kj9yz9wiow-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\5li9cyaqf1-{0}-bqjiyaj88i-bqjiyaj88i.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\9y0yof1vhi-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\5whentotmu-{0}-erw9l3u2r3-erw9l3u2r3.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\2hc0rohyo9-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\px9b78taql-{0}-d7shbmvgxk-d7shbmvgxk.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\q7nso6mqpw-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\1t6n0xfy9o-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\1eam4ezbsl-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\89ariahvak-{0}-ub07r2b239-ub07r2b239.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\llse8721sb-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\s5m0rolyfb-{0}-b7pk76d08c-b7pk76d08c.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\wtk3314xne-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\9j6m806t29-{0}-rzd6atqjts-rzd6atqjts.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\atga143cta-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\2bcm36t3n7-{0}-dxx9fxp4il-dxx9fxp4il.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\msy546trfh-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\pr2al9uii5-{0}-khv3u5hwcm-khv3u5hwcm.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\2jj56zu1bu-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\lbuwse3ou2-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\blv9dpgrwp-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\k4gyl8iysl-{0}-tdbxkamptv-tdbxkamptv.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\n94mvcxb0b-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\jaevb4rabj-{0}-06098lyss8-06098lyss8.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\natnanhhf3-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\wmhie0t8o7-{0}-s35ty4nyc5-s35ty4nyc5.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\2kdhke0al8-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\uhqnhqz9as-{0}-46ein0sx1k-46ein0sx1k.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\p33krc6qvx-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\d9ju4m56nf-{0}-37tfw0ft22-37tfw0ft22.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\qqe2224029-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\f5cyos3tzb-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\godzj55agu-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\zep114by98-{0}-6cfz1n2cew-6cfz1n2cew.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\y80gz350i3-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\5bdzfm86l8-{0}-493y06b0oq-493y06b0oq.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\xgdsans01a-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\9p7lx0ypjr-{0}-vr1egmr9el-vr1egmr9el.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\mw7iqwls0h-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\8d4i9k41tg-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\d19gpec0dr-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\3sloky7tzi-{0}-notf2xhcfb-notf2xhcfb.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\hm44mkgs01-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\n79a44cgzk-{0}-63fj8s7r0e-63fj8s7r0e.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\nfzrohnfcb-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\6bhityhrmj-{0}-47otxtyo56-47otxtyo56.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\3twik56c42-{0}-4v8eqarkd7-4v8eqarkd7.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\vj1fy3f314-{0}-356vix0kms-356vix0kms.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\p5g1rwsicq-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\ilp0m39ed8-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\k3sdoyiz2d-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\05cagy0jqm-{0}-ag7o75518u-ag7o75518u.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\kmswd4norr-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\dcv0vsq7j5-{0}-0i3buxo5is-0i3buxo5is.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\i2dt017uq2-{0}-o1o13a6vjx-o1o13a6vjx.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\idna9k15aq-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\bv3u7quiji-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\dlvblnwtef-{0}-muycvpuwrr-muycvpuwrr.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\txryvgi37t-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\qyoy407ygn-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\t1xi1m716j-{0}-6ziu0135m9-6ziu0135m9.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\bxjukt9g6y-{0}-6ziu0135m9-6ziu0135m9.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.dll
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\refint\ComedorSistema.dll
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.pdb
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ComedorSistema.genruntimeconfig.cache
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\ref\ComedorSistema.dll
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\20dgn5imzd-{0}-tji4ldnxzf-tji4ldnxzf.gz
-C:\Users\Jonathan Corpus\Desktop\Nueva carpeta\ComedorSistema\obj\Debug\net10.0\compressed\mex9fcwiub-{0}-4s9e6mwclo-4s9e6mwclo.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\appsettings.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\dotnet-tools.json
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ComedorSistema.staticwebassets.runtime.json
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ComedorSistema.staticwebassets.endpoints.json
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ComedorSistema.exe
@@ -107,95 +8,13 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ComedorSis
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ComedorSistema.runtimeconfig.json
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ComedorSistema.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ComedorSistema.pdb
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.AssemblyInfoInputs.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.AssemblyInfo.cs
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.csproj.CoreCompileInputs.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.RazorAssemblyInfo.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.RazorAssemblyInfo.cs
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.sourcelink.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\bundle\ComedorSistema.styles.css
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\projectbundle\ComedorSistema.bundle.scp.css
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\1fcjditcu6-{0}-b9sayid5wm-b9sayid5wm.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\fli002t8of-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\kj9yz9wiow-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5li9cyaqf1-{0}-bqjiyaj88i-bqjiyaj88i.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\9y0yof1vhi-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5whentotmu-{0}-erw9l3u2r3-erw9l3u2r3.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2hc0rohyo9-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\px9b78taql-{0}-d7shbmvgxk-d7shbmvgxk.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\q7nso6mqpw-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\1t6n0xfy9o-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\1eam4ezbsl-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\89ariahvak-{0}-ub07r2b239-ub07r2b239.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\llse8721sb-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\s5m0rolyfb-{0}-b7pk76d08c-b7pk76d08c.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\wtk3314xne-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\9j6m806t29-{0}-rzd6atqjts-rzd6atqjts.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\atga143cta-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2bcm36t3n7-{0}-dxx9fxp4il-dxx9fxp4il.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\msy546trfh-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\pr2al9uii5-{0}-khv3u5hwcm-khv3u5hwcm.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2jj56zu1bu-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\lbuwse3ou2-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\blv9dpgrwp-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\k4gyl8iysl-{0}-tdbxkamptv-tdbxkamptv.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\n94mvcxb0b-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\jaevb4rabj-{0}-06098lyss8-06098lyss8.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\natnanhhf3-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\wmhie0t8o7-{0}-s35ty4nyc5-s35ty4nyc5.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2kdhke0al8-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\uhqnhqz9as-{0}-46ein0sx1k-46ein0sx1k.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\p33krc6qvx-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\d9ju4m56nf-{0}-37tfw0ft22-37tfw0ft22.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qqe2224029-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\f5cyos3tzb-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\godzj55agu-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\zep114by98-{0}-6cfz1n2cew-6cfz1n2cew.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\y80gz350i3-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5bdzfm86l8-{0}-493y06b0oq-493y06b0oq.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\xgdsans01a-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\9p7lx0ypjr-{0}-vr1egmr9el-vr1egmr9el.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mw7iqwls0h-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\8d4i9k41tg-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\d19gpec0dr-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\3sloky7tzi-{0}-notf2xhcfb-notf2xhcfb.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\hm44mkgs01-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\n79a44cgzk-{0}-63fj8s7r0e-63fj8s7r0e.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\nfzrohnfcb-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\6bhityhrmj-{0}-47otxtyo56-47otxtyo56.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\3twik56c42-{0}-4v8eqarkd7-4v8eqarkd7.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\vj1fy3f314-{0}-356vix0kms-356vix0kms.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\p5g1rwsicq-{0}-83jwlth58m-83jwlth58m.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\ilp0m39ed8-{0}-mrlpezrjn3-mrlpezrjn3.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\k3sdoyiz2d-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\05cagy0jqm-{0}-ag7o75518u-ag7o75518u.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\kmswd4norr-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\dcv0vsq7j5-{0}-0i3buxo5is-0i3buxo5is.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\i2dt017uq2-{0}-o1o13a6vjx-o1o13a6vjx.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\idna9k15aq-{0}-ttgo8qnofa-ttgo8qnofa.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\bv3u7quiji-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\dlvblnwtef-{0}-muycvpuwrr-muycvpuwrr.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\txryvgi37t-{0}-87fc7y1x7t-87fc7y1x7t.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qyoy407ygn-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\refint\ComedorSistema.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.pdb
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.genruntimeconfig.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ref\ComedorSistema.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Azure.Core.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ClosedXML.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ClosedXML.Parser.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ExcelNumberFormat.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Humanizer.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
@@ -223,8 +42,12 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Microsoft.
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Mono.TextTemplating.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\RBush.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\SixLabors.Fonts.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\SixLabors.ImageSharp.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.ClientModel.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.CodeDom.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Composition.AttributedModel.dll
@@ -233,9 +56,15 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Com
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Composition.Runtime.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Composition.TypedParts.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Drawing.Common.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Private.Windows.Core.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Private.Windows.GdiPlus.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.IO.Packaging.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Memory.Data.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\zxing.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ZXing.ImageSharp.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -319,27 +148,115 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\w
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win\lib\net10.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.csproj.AssemblyReference.cache
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorS.8F94AC75.Up2Date
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ClosedXML.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ClosedXML.Parser.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\DocumentFormat.OpenXml.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\DocumentFormat.OpenXml.Framework.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\ExcelNumberFormat.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\RBush.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\SixLabors.Fonts.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\System.IO.Packaging.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mex9fcwiub-{0}-sh3560pw8j-sh3560pw8j.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qvs96khg2d-{0}-erywzueybk-erywzueybk.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.AssemblyInfoInputs.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.AssemblyInfo.cs
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.RazorAssemblyInfo.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.RazorAssemblyInfo.cs
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.sourcelink.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\Views\Shared\_LayoutQRLectura.cshtml.rz.scp.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\bundle\ComedorSistema.styles.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\projectbundle\ComedorSistema.bundle.scp.css
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\hewjwazqc9-{0}-wj0lihy8u1-wj0lihy8u1.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mex9fcwiub-{0}-sh3560pw8j-sh3560pw8j.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\zmj3ont9vz-{0}-iudlkgzly7-iudlkgzly7.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\1fcjditcu6-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\fli002t8of-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mcdscvpe84-{0}-8jx2cs45po-8jx2cs45po.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\fqbin0brdw-{0}-ohsibi8q8g-ohsibi8q8g.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\c84w5yhtnr-{0}-ks5lk3g78t-ks5lk3g78t.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\vuphqit0bm-{0}-kg3luuowh7-kg3luuowh7.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\20dgn5imzd-{0}-hq1zt3r4at-hq1zt3r4at.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\kj9yz9wiow-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qvs96khg2d-{0}-erywzueybk-erywzueybk.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5li9cyaqf1-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\9y0yof1vhi-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5whentotmu-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2hc0rohyo9-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\px9b78taql-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\q7nso6mqpw-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\1t6n0xfy9o-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\1eam4ezbsl-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\89ariahvak-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\llse8721sb-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\s5m0rolyfb-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\wtk3314xne-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\9j6m806t29-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\atga143cta-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2bcm36t3n7-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\msy546trfh-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\pr2al9uii5-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2jj56zu1bu-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\lbuwse3ou2-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\blv9dpgrwp-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\k4gyl8iysl-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\n94mvcxb0b-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\jaevb4rabj-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\natnanhhf3-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\wmhie0t8o7-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\2kdhke0al8-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\uhqnhqz9as-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\p33krc6qvx-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\d9ju4m56nf-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qqe2224029-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\f5cyos3tzb-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\godzj55agu-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\zep114by98-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\y80gz350i3-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5bdzfm86l8-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\xgdsans01a-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\9p7lx0ypjr-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mw7iqwls0h-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\8d4i9k41tg-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\d19gpec0dr-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\3sloky7tzi-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\hm44mkgs01-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\n79a44cgzk-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\nfzrohnfcb-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\6bhityhrmj-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\3twik56c42-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\vj1fy3f314-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\p5g1rwsicq-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\ilp0m39ed8-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\k3sdoyiz2d-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\05cagy0jqm-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\kmswd4norr-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\dcv0vsq7j5-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\i2dt017uq2-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\idna9k15aq-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\bv3u7quiji-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\dlvblnwtef-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\txryvgi37t-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qyoy407ygn-{0}-mlv21k5csn-mlv21k5csn.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\t1xi1m716j-{0}-2pifcs0612-2pifcs0612.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\bxjukt9g6y-{0}-2pifcs0612-2pifcs0612.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\hewjwazqc9-{0}-wj0lihy8u1-wj0lihy8u1.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mcdscvpe84-{0}-8jx2cs45po-8jx2cs45po.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\zmj3ont9vz-{0}-iudlkgzly7-iudlkgzly7.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\c84w5yhtnr-{0}-ks5lk3g78t-ks5lk3g78t.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\swae.build.ex.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\vuphqit0bm-{0}-9rvpwz7gkk-9rvpwz7gkk.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\20dgn5imzd-{0}-d9zd3gxsus-d9zd3gxsus.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorS.8F94AC75.Up2Date
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\refint\ComedorSistema.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.pdb
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.genruntimeconfig.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ref\ComedorSistema.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\OpenCvSharp.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\SkiaSharp.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.pdb
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.pdb
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.pdb

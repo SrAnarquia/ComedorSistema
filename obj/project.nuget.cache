@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VeDbBTxSyXo=",
+  "dgSpecHash": "vKIitcIvtX4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
   "expectedPackageFiles": [
@@ -41,10 +41,16 @@
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.7.1\\microsoft.identitymodel.tokens.7.7.1.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\microsoft.visualstudio.solutionpersistence\\1.0.52\\microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.3\\microsoft.win32.systemevents.10.0.3.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\opencvsharp4\\4.13.0.20260226\\opencvsharp4.4.13.0.20260226.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\rbush.signed\\4.0.0\\rbush.signed.4.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\sixlabors.imagesharp\\2.1.7\\sixlabors.imagesharp.2.1.7.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\skiasharp\\3.119.2\\skiasharp.3.119.2.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\skiasharp.nativeassets.macos\\3.119.2\\skiasharp.nativeassets.macos.3.119.2.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\skiasharp.nativeassets.win32\\3.119.2\\skiasharp.nativeassets.win32.3.119.2.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.clientmodel\\1.5.1\\system.clientmodel.1.5.1.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.composition\\9.0.0\\system.composition.9.0.0.nupkg.sha512",
@@ -54,11 +60,99 @@
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.composition.runtime\\9.0.0\\system.composition.runtime.9.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.composition.typedparts\\9.0.0\\system.composition.typedparts.9.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.configuration.configurationmanager\\9.0.4\\system.configuration.configurationmanager.9.0.4.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.drawing.common\\10.0.3\\system.drawing.common.10.0.3.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.7.1\\system.identitymodel.tokens.jwt.7.7.1.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.io.packaging\\8.0.1\\system.io.packaging.8.0.1.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.memory.data\\8.0.1\\system.memory.data.8.0.1.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
-    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\zxing.net\\0.16.11\\zxing.net.0.16.11.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\zxing.net.bindings.imagesharp\\0.16.10\\zxing.net.bindings.imagesharp.0.16.10.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "ComedorSistema depende de ZXing.Net.Bindings.ImageSharp (>= 0.16.9), pero no se encontró ZXing.Net.Bindings.ImageSharp 0.16.9. ZXing.Net.Bindings.ImageSharp 0.16.10 se resolvió en su lugar.",
+      "projectPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "libraryId": "ZXing.Net.Bindings.ImageSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"SixLabors.ImageSharp\" 2.1.7 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-2cmq-823j-5qj8",
+      "projectPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "El paquete \"SixLabors.ImageSharp\" 2.1.7 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-5x7m-6737-26cr",
+      "projectPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"SixLabors.ImageSharp\" 2.1.7 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-63p8-c4ww-9cg7",
+      "projectPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "El paquete \"SixLabors.ImageSharp\" 2.1.7 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-g85r-6x2q-45w7",
+      "projectPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "El paquete \"SixLabors.ImageSharp\" 2.1.7 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
+      "projectPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "El paquete \"SixLabors.ImageSharp\" 2.1.7 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
+      "projectPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\ComedorSistema.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

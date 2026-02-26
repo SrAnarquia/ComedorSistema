@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ContainingType": "ComedorSistema.Controllers.LectorGeneradorApiController",
+    "Method": "ProcesarImagen",
+    "RelativePath": "api/lector/imagen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "System.Text.Json.JsonElement",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComedorSistema.Controllers.LectorGeneradorApiController",
+    "Method": "Pruebas",
+    "RelativePath": "api/lector/pruebas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComedorSistema.Controllers.LectorGeneradorApiController",
+    "Method": "Registrar",
+    "RelativePath": "api/lector/registrar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vm",
+        "Type": "ComedorSistema.Models.ViewModels.LecturaQrVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

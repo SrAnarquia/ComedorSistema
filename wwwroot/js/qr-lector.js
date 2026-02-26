@@ -1,5 +1,4 @@
-﻿
-const html5QrCode = new Html5Qrcode("reader");
+﻿const html5QrCode = new Html5Qrcode("reader");
 let scanning = false;
 let currentCameraId = null;
 
@@ -41,8 +40,9 @@ async function onScanSuccess(decodedText) {
     scanning = true;
 
     try {
+        //const response = await fetch("/LectorGenerador/RegistrarLectura", {
         const response = await fetch("/LectorGenerador/RegistrarLectura", {
-            method: "POST",
+        method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ codigoQr: decodedText })
         });
