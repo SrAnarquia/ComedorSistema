@@ -1,34 +1,14 @@
 ﻿using ComedorSistema.Models;
 using ComedorSistema.Models.ViewModels;
-
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using OpenCvSharp;
 
-// ================== USINGS COMPLETOS ==================
-using System;
-using System.IO;
-using System.Text.Json;
-
-// Para ImageSharp
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.PixelFormats;
-
-// ZXing básico
-using ZXing;
-
-// Alias para ZXing.ImageSharp y evitar ambigüedad
-using ZXingImageSharp = ZXing.ImageSharp;
-
-
-using ComedorSistema.Models;
-using ComedorSistema.Models.ViewModels;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
-
-
+/*Procesamiento de imagenes*/
+using OpenCvSharp;
 
 
 namespace ComedorSistema.Controllers
@@ -50,171 +30,128 @@ namespace ComedorSistema.Controllers
         #endregion
 
         #region QRscanner
-        // Usings necesarios (añádelos al inicio del archivo)
-
-        // Método
 
         [HttpPost("imagen")]
-        public IActionResult ProcesarImagen([FromBody] JsonElement body)
+        public async Task<IActionResult> ProcesarImagen(IFormFile image)
         {
-            // 1️⃣ Validar input
-            if (!body.TryGetProperty("imagenQr", out var qrElement))
-                return BadRequest("No se envió imagenQr");
+            if (image == null || image.Length == 0)
+                return BadRequest(new { success = false, message = "No se envió ninguna imagen" });
 
-            var base64Image = qrElement.GetString();
-            if (string.IsNullOrWhiteSpace(base64Image))
-                return BadRequest("Imagen vacía");
+            using var ms = new MemoryStream();
+            await image.CopyToAsync(ms);
+            byte[] imageBytes = ms.ToArray();
 
-            try
-            {
-                // 2️⃣ Convertir Base64 a ImageSharp
-                byte[] imageBytes = Convert.FromBase64String(base64Image);
-                using var ms = new MemoryStream(imageBytes);
-                using Image<Rgba32> image = Image.Load<Rgba32>(ms);
+            // Procesar QR con OpenCV
+            Mat mat = Cv2.ImDecode(imageBytes, ImreadModes.Color);
+            if (mat.Empty())
+                return BadRequest(new { success = false, message = "No se pudo leer la imagen" });
 
-                // 3️⃣ Crear lector ZXing (ImageSharp) y decodificar
-                var reader = new ZXingImageSharp.BarcodeReader<Rgba32>();
-                ZXing.Result result = reader.Decode(image);
+            QRCodeDetector detector = new QRCodeDetector();
+            string decodedText = detector.DetectAndDecode(mat, out Point2f[] points);
 
-                if (result == null)
-                    return BadRequest("No se pudo leer QR de la imagen");
+            if (string.IsNullOrEmpty(decodedText))
+                return BadRequest(new { success = false, message = "No se detectó ningún QR" });
 
-                // 4️⃣ Obtener texto del QR
-                string codigoQr = result.Text;
-
-                // 5️⃣ Crear tu ViewModel y reutilizar el método Registrar
-                var vm = new LecturaQrVm
-                {
-                    CodigoQr = codigoQr,
-                    FechaLectura = DateTime.Now,
-                    Usuario = "DesdeMAUIWebQR"
-                };
-
-                // 6️⃣ Llamar a tu método de registro
-                return Registrar(vm);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(new { mensaje = "Error procesando QR: " + ex.Message });
-            }
-        }
-
-
-
-
-        /*
-        [HttpPost("imagen")]
-        public IActionResult ProcesarImagen([FromBody] JsonElement body)
-        {
-            if (!body.TryGetProperty("imagenQr", out var qrElement))
-                return BadRequest(new { mensaje = "No se envió imagenQr" });
-
-            string codigoQr = qrElement.GetString();
-
-            if (string.IsNullOrWhiteSpace(codigoQr))
-                return BadRequest(new { mensaje = "QR vacío" });
-
-            // 🔹 Reutilizamos el método de registro existente internamente
+            // Enviar a Registrar
             var vm = new LecturaQrVm
             {
-                CodigoQr = codigoQr,
+                CodigoQr = decodedText,
                 FechaLectura = DateTime.Now,
-                Usuario = "DesdeImagenAPI"
+                Usuario = "DesdeHTMLWebQR"
             };
 
-            // Llamamos al método de registrar directamente
             return Registrar(vm);
         }
-        */
 
+       
         #endregion
 
         #region registrar   
         [HttpPost("registrar")]
-        public IActionResult Registrar([FromBody] LecturaQrVm vm)
-        {
-            if (vm == null || string.IsNullOrWhiteSpace(vm.CodigoQr))
-                return BadRequest(new 
-                { mensaje = "QR vacío o inválido" });
-
-            QrPayload data;
-
-            try
+            public IActionResult Registrar([FromBody] LecturaQrVm vm)
             {
-                // Normaliza comillas simples del QR
-                var json = vm.CodigoQr.Replace('\'', '"');
-                data = JsonSerializer.Deserialize<QrPayload>(json);
-            }
-            catch
-            {
-                return BadRequest(new { mensaje = "Formato de QR incorrecto" });
-            }
+                if (vm == null || string.IsNullOrWhiteSpace(vm.CodigoQr))
+                    return BadRequest(new 
+                    { mensaje = "QR vacío o inválido" });
 
-            if (data == null ||
-                string.IsNullOrWhiteSpace(data.empId) ||
-                string.IsNullOrWhiteSpace(data.nombre) ||
-                string.IsNullOrWhiteSpace(data.departamento) ||
-                string.IsNullOrWhiteSpace(data.firma))
-            {
-                return BadRequest(new { mensaje = "QR incompleto" });
-            }
+                QrPayload data;
 
-            if (!int.TryParse(data.empId, out int idPersona))
-                return BadRequest(new { mensaje = "ID inválido" });
-
-            // Validar HMAC
-            var dataPlano = $"{data.empId}|{data.nombre}|{data.departamento}";
-            var firmaGenerada = GenerarFirmaHmac(dataPlano);
-
-            if (firmaGenerada != data.firma)
-                return Unauthorized(new { mensaje = "Firma inválida. QR alterado." });
-
-            // Validar doble escaneo (1 minuto)
-            var ultimoRegistro = _context.PedidoComida
-                .Where(x => x.IdPersona == idPersona)
-                .OrderByDescending(x => x.FechaCreacion)
-                .FirstOrDefault();
-
-            if (ultimoRegistro != null &&
-                ultimoRegistro.FechaCreacion.HasValue &&
-                (DateTime.Now - ultimoRegistro.FechaCreacion.Value).TotalMinutes < 1)
-            {
-                return BadRequest(new
+                try
                 {
-                    mensaje = $"⚠️ Ya registraste un consumo recientemente. Espera 1 minuto."
+                    // Normaliza comillas simples del QR
+                    var json = vm.CodigoQr.Replace('\'', '"');
+                    data = JsonSerializer.Deserialize<QrPayload>(json);
+                }
+                catch
+                {
+                    return BadRequest(new { mensaje = "Formato de QR incorrecto" });
+                }
+
+                if (data == null ||
+                    string.IsNullOrWhiteSpace(data.empId) ||
+                    string.IsNullOrWhiteSpace(data.nombre) ||
+                    string.IsNullOrWhiteSpace(data.departamento) ||
+                    string.IsNullOrWhiteSpace(data.firma))
+                {
+                    return BadRequest(new { mensaje = "QR incompleto" });
+                }
+
+                if (!int.TryParse(data.empId, out int idPersona))
+                    return BadRequest(new { mensaje = "ID inválido" });
+
+                // Validar HMAC
+                var dataPlano = $"{data.empId}|{data.nombre}|{data.departamento}";
+                var firmaGenerada = GenerarFirmaHmac(dataPlano);
+
+                if (firmaGenerada != data.firma)
+                    return Unauthorized(new { mensaje = "Firma inválida. QR alterado." });
+
+                // Validar doble escaneo (1 minuto)
+                var ultimoRegistro = _context.PedidoComida
+                    .Where(x => x.IdPersona == idPersona)
+                    .OrderByDescending(x => x.FechaCreacion)
+                    .FirstOrDefault();
+
+                if (ultimoRegistro != null &&
+                    ultimoRegistro.FechaCreacion.HasValue &&
+                    (DateTime.Now - ultimoRegistro.FechaCreacion.Value).TotalMinutes < 1)
+                {
+                    return BadRequest(new
+                    {
+                        mensaje = $"⚠️ Ya registraste un consumo recientemente. Espera 1 minuto."
+                    });
+                }
+
+                // Precio actual
+                var precioActual = _context.Precios
+                    .OrderByDescending(p => p.FechaActualizacion)
+                    .Select(p => p.Precio1)
+                    .FirstOrDefault();
+
+                // Registrar pedido
+                var pedido = new PedidoComidum
+                {
+                    IdPersona = idPersona,
+                    Nombre = data.nombre,
+                    Departamento = data.departamento,
+                    Precio = precioActual,
+                    Cantidad = 1,
+                    FechaCompra = DateTime.Now,
+                    FechaCreacion = DateTime.Now
+                };
+
+                _context.PedidoComida.Add(pedido);
+                _context.SaveChanges();
+
+                return Ok(new
+                {
+                    mensaje = "Consumo registrado correctamente",
+                    persona = data.nombre,
+                    departamento = data.departamento,
+                    precio = precioActual
                 });
             }
-
-            // Precio actual
-            var precioActual = _context.Precios
-                .OrderByDescending(p => p.FechaActualizacion)
-                .Select(p => p.Precio1)
-                .FirstOrDefault();
-
-            // Registrar pedido
-            var pedido = new PedidoComidum
-            {
-                IdPersona = idPersona,
-                Nombre = data.nombre,
-                Departamento = data.departamento,
-                Precio = precioActual,
-                Cantidad = 1,
-                FechaCompra = DateTime.Now,
-                FechaCreacion = DateTime.Now
-            };
-
-            _context.PedidoComida.Add(pedido);
-            _context.SaveChanges();
-
-            return Ok(new
-            {
-                mensaje = "Consumo registrado correctamente",
-                persona = data.nombre,
-                departamento = data.departamento,
-                precio = precioActual
-            });
-        }
-        #endregion
+            #endregion
 
         #region pruebas
         // ✅ Método de prueba GET

@@ -1,0 +1,104 @@
+﻿/* ================= BASE ================= */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* ================= AREA CAMARA ================= */
+.main-lectura {
+    flex: 1;
+    position: relative;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+
+/* ================= CONTENEDOR ================= */
+.qr-fullscreen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* ================= VIDEO ================= */
+#reader {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+    #reader video {
+        position: absolute;
+        inset: 0;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
+    }
+
+/* ================= OVERLAY ================= */
+.scanner-overlay {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+    .scanner-overlay::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.35);
+    }
+
+/* ================= MARCO CORRECTO ================= */
+.scanner-frame {
+    position: absolute;
+    /* 🔥 CLAVE: % DEL CONTENEDOR, NO DEL VIEWPORT */
+    width: 55%;
+    max-width: 420px;
+    aspect-ratio: 1 / 1;
+    border-radius: 20px;
+    border: 4px solid #00ffaa;
+    box-shadow: 0 0 30px #00ffaa;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .scanner-frame {
+        width: 75%;
+        max-width: 320px;
+    }
+}
+
+/* ================= MENSAJE ================= */
+.scan-alert {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 35px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    z-index: 5;
+    min-width: 300px;
+    text-align: center;
+}
+
+.scan-success {
+    background: #00ffaa;
+    color: #000;
+}
+
+.scan-error {
+    background: #ff0033;
+    color: #fff;
+}

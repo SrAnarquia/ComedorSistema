@@ -910,6 +910,30 @@
           }
         }
       },
+      "OpenCvSharp4.runtime.win/4.13.0.20260226": {
+        "type": "package",
+        "build": {
+          "build/net8.0/OpenCvSharp4.runtime.win.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/OpenCvSharpExtern.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/opencv_videoio_ffmpeg4130_64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/OpenCvSharpExtern.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/opencv_videoio_ffmpeg4130.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "RBush.Signed/4.0.0": {
         "type": "package",
         "compile": {
@@ -3164,6 +3188,26 @@
         "opencvsharp4.nuspec"
       ]
     },
+    "OpenCvSharp4.runtime.win/4.13.0.20260226": {
+      "sha512": "WtWkanqQMSLhQl3/emN6ODwfsgglfmrHAUcp4KvgqEg+2uxtsbkkuf7UovSi1hGlmzJVP8aHWTaBWueZwFfVFw==",
+      "type": "package",
+      "path": "opencvsharp4.runtime.win/4.13.0.20260226",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net48/OpenCvSharp4.runtime.win.props",
+        "build/net8.0/OpenCvSharp4.runtime.win.props",
+        "build/netcoreapp/OpenCvSharp4.runtime.win.props",
+        "build/netstandard/OpenCvSharp4.runtime.win.props",
+        "opencvsharp.png",
+        "opencvsharp4.runtime.win.4.13.0.20260226.nupkg.sha512",
+        "opencvsharp4.runtime.win.nuspec",
+        "runtimes/win-x64/native/OpenCvSharpExtern.dll",
+        "runtimes/win-x64/native/opencv_videoio_ffmpeg4130_64.dll",
+        "runtimes/win-x86/native/OpenCvSharpExtern.dll",
+        "runtimes/win-x86/native/opencv_videoio_ffmpeg4130.dll"
+      ]
+    },
     "RBush.Signed/4.0.0": {
       "sha512": "aP5KQxL5RnFNGW1f0euYVBfCatkLw5iEzMRJcXKq8LWWP4Cp3+qoSq1tDDL2vvJ2rM0ychmVMa2VaEKLS6uX4w==",
       "type": "package",
@@ -3890,6 +3934,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.3",
       "OpenCvSharp4 >= 4.13.0.20260226",
+      "OpenCvSharp4.runtime.win >= 4.13.0.20260226",
       "SixLabors.ImageSharp >= 2.1.7",
       "SkiaSharp >= 3.119.2",
       "System.Drawing.Common >= 10.0.3",
@@ -3967,6 +4012,10 @@
             "version": "[10.0.3, )"
           },
           "OpenCvSharp4": {
+            "target": "Package",
+            "version": "[4.13.0.20260226, )"
+          },
+          "OpenCvSharp4.runtime.win": {
             "target": "Package",
             "version": "[4.13.0.20260226, )"
           },

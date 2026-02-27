@@ -73,6 +73,10 @@
               "target": "Package",
               "version": "[4.13.0.20260226, )"
             },
+            "OpenCvSharp4.runtime.win": {
+              "target": "Package",
+              "version": "[4.13.0.20260226, )"
+            },
             "SixLabors.ImageSharp": {
               "target": "Package",
               "version": "[2.1.7, )"
