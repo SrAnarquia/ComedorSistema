@@ -3,15 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jonathan Corpus\\Desktop\\GitUriel\\BabyShower\\Pages\\Index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.razor",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\GitUriel\\BabyShower\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "..\\..\\GitUriel\\BabyShower\\Pages\\Index.razor",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\GitUriel\\BabyShower\\Pages\\Index.razor",
-              "RelativeToolTip": "..\\..\\GitUriel\\BabyShower\\Pages\\Index.razor",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-27T23:08:22.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LectorGeneradorController.cs",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LectorGeneradorController.cs",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
-              "RelativeToolTip": "Controllers\\LectorGeneradorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:19:52.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "LectorGeneradorAPIController.cs",
               "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorAPIController.cs",
               "RelativeDocumentMoniker": "Controllers\\LectorGeneradorAPIController.cs",
               "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorAPIController.cs",
               "RelativeToolTip": "Controllers\\LectorGeneradorAPIController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-27T14:19:52.103Z",
+              "WhenOpened": "2026-02-28T18:45:55.938Z",
               "EditorCaption": ""
             }
           ]

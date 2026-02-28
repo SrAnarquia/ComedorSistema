@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "ComedorSistema.Controllers.LectorGeneradorApiController",
+    "Method": "Historial",
+    "RelativePath": "api/lector/historial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fecha",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComedorSistema.Controllers.LectorGeneradorApiController",
     "Method": "ProcesarImagen",
     "RelativePath": "api/lector/imagen",
     "HttpMethod": "POST",

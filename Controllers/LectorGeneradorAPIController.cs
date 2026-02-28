@@ -7,8 +7,6 @@ using OpenCvSharp;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
-/*Procesamiento de imagenes*/
-using OpenCvSharp;
 
 
 namespace ComedorSistema.Controllers
@@ -99,11 +97,24 @@ namespace ComedorSistema.Controllers
                 if (!int.TryParse(data.empId, out int idPersona))
                     return BadRequest(new { mensaje = "ID inválido" });
 
-                // Validar HMAC
+            // Validar HMAC
+            var firmaGenerada = GenerarFirmaHmac(
+                data.empId,
+                data.nombre,
+                data.departamento
+                );
+
+            if (firmaGenerada != data.firma)
+                return Unauthorized(new { mensaje = "Firma inválida. QR alterado." });
+
+
+            /*
                 var dataPlano = $"{data.empId}|{data.nombre}|{data.departamento}";
                 var firmaGenerada = GenerarFirmaHmac(dataPlano);
+            */
 
-                if (firmaGenerada != data.firma)
+
+            if (firmaGenerada != data.firma)
                     return Unauthorized(new { mensaje = "Firma inválida. QR alterado." });
 
                 // Validar doble escaneo (1 minuto)
@@ -172,13 +183,51 @@ namespace ComedorSistema.Controllers
 
         #endregion
 
+        #region Historial
+        [HttpGet("historial")]
+        public IActionResult Historial(DateTime fecha)
+        {
+            var datos = _context.PedidoComida
+                .Where(x => x.FechaCompra.HasValue &&
+                            x.FechaCompra.Value.Date == fecha.Date)
+                .OrderByDescending(x => x.FechaCompra)
+                .Select(x => new
+                {
+                    nombre = x.Nombre,
+                    precio=x.Precio,
+                    hora = x.FechaCompra.Value.ToString("HH:mm:ss")
+                })
+                .ToList();
+
+            return Ok(new
+            {
+                mensaje = "Registros del día",
+                datos
+            });
+        }
+
+        #endregion 
+
         #region GenerarFirmas
+        private string GenerarFirmaHmac(string empId, string nombre, string departamento)
+        {
+            var data = $"{empId}|{nombre}|{departamento}";
+
+            using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(CLAVE_SECRETA));
+            var hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(data));
+
+            return BitConverter.ToString(hash).Replace("-", "").ToLower();
+        }
+
+        /*
         private string GenerarFirmaHmac(string data)
         {
             using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(CLAVE_SECRETA));
             var hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(data));
             return BitConverter.ToString(hash).Replace("-", "").ToLower();
         }
+
+        */
         #endregion
     }
 }
