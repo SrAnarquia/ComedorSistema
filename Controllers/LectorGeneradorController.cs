@@ -29,21 +29,46 @@ namespace ComedorSistema.Controllers
         ============================================================ */
 
         // MASTER LIST (MIS PEDIDOS / CONSUMOS)
-        public IActionResult Index(DateTime? fechaInicio, DateTime? fechaFin)
+        public IActionResult Index(DateTime? fechaInicio, DateTime? fechaFin, int pagina = 1)
         {
+            int pageSize = 10;
+
             var query = _context.PedidoComida.AsQueryable();
 
+            // ===================== FILTROS =====================
             if (fechaInicio.HasValue)
-                query = query.Where(x => x.FechaCreacion >= fechaInicio.Value);
+            {
+                query = query.Where(x => x.FechaCreacion >= fechaInicio.Value.Date);
+            }
 
             if (fechaFin.HasValue)
-                query = query.Where(x => x.FechaCreacion <= fechaFin.Value.AddDays(1));
+            {
+                // Incluye TODO el día
+                var finDia = fechaFin.Value.Date.AddDays(1).AddTicks(-1);
+                query = query.Where(x => x.FechaCreacion <= finDia);
+            }
 
-            var data = query
-                .OrderByDescending(x => x.FechaCreacion)
+            // ===================== ORDEN =====================
+            query = query.OrderByDescending(x => x.FechaCreacion);
+
+            // ===================== PAGINACIÓN =====================
+            int totalRegistros = query.Count();
+
+            var datosPaginados = query
+                .Skip((pagina - 1) * pageSize)
+                .Take(pageSize)
                 .ToList();
 
-            return View(data);
+            var vm = new ConsumosListadoVM
+            {
+                Datos = datosPaginados,
+                PaginaActual = pagina,
+                TotalPaginas = (int)Math.Ceiling(totalRegistros / (double)pageSize),
+                FechaInicio = fechaInicio,
+                FechaFin = fechaFin
+            };
+
+            return View(vm);
         }
         #endregion
 
@@ -145,6 +170,63 @@ namespace ComedorSistema.Controllers
         }
         #endregion
 
+        #region PrecioCobrar
+        //Se llama a la vista
+        [HttpGet]
+        public IActionResult PrecioCobrar() 
+        {
+
+            return View();
+        }
+
+
+
+        [HttpPost]
+        public IActionResult PrecioCobrarUpdate(decimal? nuevoPrecio)
+        {
+            try
+            {
+                var precioActual = _context.Precios.FirstOrDefault();
+
+                if (precioActual == null)
+                {
+                    // Primera vez (autocreación)
+                    precioActual = new Precio
+                    {
+                        Precio1 = nuevoPrecio,
+                        PrecioAnterior = null,
+                        FechaActualizacion = DateTime.Now
+                    };
+
+                    _context.Precios.Add(precioActual);
+                }
+                else
+                {
+                    // Actualización normal
+                    precioActual.PrecioAnterior = precioActual.Precio1;
+                    precioActual.Precio1 = nuevoPrecio;
+                    precioActual.FechaActualizacion = DateTime.Now;
+                }
+
+                _context.SaveChanges();
+
+                return Ok(new
+                {
+                    mensaje = $"Nuevo precio establecido: {nuevoPrecio}"
+                });
+            }
+            catch
+            {
+                return BadRequest(new
+                {
+                    mensaje = "Algo salió mal, intenta nuevamente"
+                });
+            }
+        }
+
+        #endregion
+
+
         #region ExportExcel
         /* ============================================================
            EXPORTAR EXCEL
@@ -209,5 +291,39 @@ namespace ComedorSistema.Controllers
                 .ToLower();
         }
         #endregion
+
+
+
+        #region EditarPrecioComida
+
+        [HttpGet]
+        public IActionResult GetPrecioActual()
+        {
+            var precio = _context.Precios
+                .OrderByDescending(p => p.FechaActualizacion)
+                .Select(p => p.Precio1)
+                .FirstOrDefault();
+
+            return Json(precio);
+        }
+
+        [HttpGet]
+        public IActionResult EditarPrecioPartial()
+        {
+            var data = _context.Precios
+                .OrderByDescending(p => p.FechaActualizacion)
+                .Select(p => new EditarPrecioVM
+                {
+                    Precio = p.Precio1,
+                    FechaActualizacion = p.FechaActualizacion
+                })
+                .FirstOrDefault();
+
+            return PartialView("_EditarPrecio", data);
+        }
+
+        #endregion
+
+
     }
 }

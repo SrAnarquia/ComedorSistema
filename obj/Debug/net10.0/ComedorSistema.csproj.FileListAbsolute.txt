@@ -180,7 +180,6 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\bundle\ComedorSistema.styles.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\scopedcss\projectbundle\ComedorSistema.bundle.scp.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\hewjwazqc9-{0}-wj0lihy8u1-wj0lihy8u1.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mex9fcwiub-{0}-sh3560pw8j-sh3560pw8j.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\zmj3ont9vz-{0}-iudlkgzly7-iudlkgzly7.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\1fcjditcu6-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\fli002t8of-{0}-61n19gt1b8-61n19gt1b8.gz
@@ -190,7 +189,6 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\vuphqit0bm-{0}-kg3luuowh7-kg3luuowh7.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\20dgn5imzd-{0}-hq1zt3r4at-hq1zt3r4at.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\kj9yz9wiow-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
-C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qvs96khg2d-{0}-erywzueybk-erywzueybk.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5li9cyaqf1-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\9y0yof1vhi-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\5whentotmu-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -264,3 +262,8 @@ C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\refint\Com
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.pdb
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ComedorSistema.genruntimeconfig.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\ref\ComedorSistema.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\l7wvdmvcar-{0}-4bmawpd3so-4bmawpd3so.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\epeukt8mpq-{0}-mj9pqvs62v-mj9pqvs62v.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\dcy5ztukqs-{0}-cgts6clrzd-cgts6clrzd.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\mex9fcwiub-{0}-5r6lvfb09f-5r6lvfb09f.gz
+C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\obj\Debug\net10.0\compressed\qvs96khg2d-{0}-kgz2azv9p2-kgz2azv9p2.gz

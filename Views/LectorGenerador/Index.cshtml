@@ -1,64 +1,110 @@
-﻿@model List<PedidoComidum>
+﻿@model ComedorSistema.Models.ViewModels.ConsumosListadoVM
 
 @{
     ViewData["Title"] = "Consumos";
     Layout = "~/Views/Shared/_Layout.cshtml";
-
 }
 
-<div class="filter-card mb-3 p-3 border rounded bg-light">
-    <form method="get" class="d-flex gap-2 align-items-end">
+@section Styles {
+    <!-- Reutiliza estilos de Reclutamiento -->
+    <link href="~/css/Index.css" rel="stylesheet"/>
+}
+
+@section Scripts {
+    <script src="~/js/OverlayEditar.js"></script>
+
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+<!-- ===================== FILTROS ===================== -->
+<div class="filter-card mb-3 p-3 border rounded bg-light filtros-wrapper">
+
+    <!-- IZQUIERDA -->
+    <form method="get" class="filtros-form d-flex flex-wrap gap-3 align-items-end">
+        <!-- FECHA INICIO -->
         <div>
             <label class="form-label">Fecha inicio</label>
             <input type="date"
+                   class="form-control"
                    name="fechaInicio"
-                   value="@Context.Request.Query["fechaInicio"]"
-                   class="form-control" />
+                   value="@(Model.FechaInicio?.ToString("yyyy-MM-dd"))" />
         </div>
 
+        <!-- FECHA FIN -->
         <div>
             <label class="form-label">Fecha fin</label>
             <input type="date"
+                   class="form-control"
                    name="fechaFin"
-                   value="@Context.Request.Query["fechaFin"]"
-                   class="form-control" />
+                   value="@(Model.FechaFin?.ToString("yyyy-MM-dd"))" />
+        </div>
+
+        <!-- BOTONES -->
+        <div>
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-search"></i> Filtrar
+            </button>
         </div>
 
         <div>
-            <button type="submit" class="btn btn-primary mt-4">
-                <i class="bi bi-search"></i> Filtrar
-            </button>
+            <a asp-action="Index" class="btn btn-outline-secondary">
+                <i class="bi bi-x-circle"></i> Limpiar
+            </a>
+        </div>
 
-            <a asp-action="ExportarExcel"
-               asp-route-fechaInicio="@Context.Request.Query["fechaInicio"]"
-               asp-route-fechaFin="@Context.Request.Query["fechaFin"]"
-               class="btn btn-outline-success mt-4">
+        <div>
+            <a class="btn btn-outline-success"
+               asp-action="ExportarExcel"
+               asp-route-fechaInicio="@(Model.FechaInicio?.ToString("yyyy-MM-dd"))"
+               asp-route-fechaFin="@(Model.FechaFin?.ToString("yyyy-MM-dd"))">
                 <i class="bi bi-file-earmark-excel"></i> Exportar
             </a>
         </div>
     </form>
-</div>
 
+    <!-- DERECHA -->
+    <div class="precio-actual-box d-flex align-items-center gap-3">
+        <img src="~/img/money.png" alt="Precio" style="width:40px" />
+
+        <div class="text-end">
+            <small class="text-muted">Precio actual</small>
+            <div class="fw-bold fs-4">
+                $ <span id="precioActual">--</span>
+            </div>
+        </div>
+
+        <button type="button"
+                class="btn btn-outline-dark btn-sm"
+                id="btnEditarPrecio">
+            <i class="bi bi-pencil"></i>
+        </button>
+    </div>
+
+</div>
+<!-- ===================== TABLA ===================== -->
 <div class="table-responsive">
-    <table class="table table-hover table-bordered">
+    <table class="table table-hover table-bordered align-middle">
         <thead class="table-dark">
             <tr>
-                <th>Id</th>
+                <th>Id Personal</th>
                 <th>Nombre</th>
                 <th>Departamento</th>
+                <th>Servicio</th>
                 <th>Fecha</th>
                 <th>Precio</th>
             </tr>
         </thead>
         <tbody>
-            @if (Model.Any())
+            @if (Model.Datos != null && Model.Datos.Any())
             {
-                foreach (var item in Model)
+                foreach (var item in Model.Datos)
                 {
                     <tr>
                         <td>@item.IdPersona</td>
                         <td>@item.Nombre</td>
                         <td>@item.Departamento</td>
+                        <td>@item.Servicio</td>
                         <td>@item.FechaCreacion?.ToString("dd/MM/yyyy HH:mm")</td>
                         <td>@item.Precio</td>
                     </tr>
@@ -67,11 +113,91 @@
             else
             {
                 <tr>
-                    <td colspan="4" class="text-center text-muted">
+                    <td colspan="5" class="text-center text-muted">
                         No hay registros para el rango seleccionado
                     </td>
                 </tr>
             }
         </tbody>
     </table>
+</div>
+
+<!-- ===================== PAGINACIÓN ===================== -->
+@if (Model.TotalPaginas > 1)
+{
+    int paginasAMostrar = 5;
+    int paginaActual = Model.PaginaActual;
+    int totalPaginas = Model.TotalPaginas;
+
+    int inicio = paginaActual - (paginasAMostrar / 2);
+    if (inicio < 1) inicio = 1;
+
+    int fin = inicio + paginasAMostrar - 1;
+    if (fin > totalPaginas) fin = totalPaginas;
+
+    if (fin - inicio < paginasAMostrar - 1)
+    {
+        inicio = fin - paginasAMostrar + 1;
+        if (inicio < 1) inicio = 1;
+    }
+
+    <nav class="pagination-container mt-4">
+        <ul class="pagination justify-content-center align-items-center">
+
+            <li class="page-item @(paginaActual == 1 ? "disabled" : "")">
+                <a class="page-link"
+                   asp-route-pagina="1"
+                   asp-route-fechaInicio="@Model.FechaInicio"
+                   asp-route-fechaFin="@Model.FechaFin">
+                    <i class="bi bi-chevron-double-left"></i>
+                </a>
+            </li>
+
+            <li class="page-item @(paginaActual == 1 ? "disabled" : "")">
+                <a class="page-link"
+                   asp-route-pagina="@(paginaActual - 1)"
+                   asp-route-fechaInicio="@Model.FechaInicio"
+                   asp-route-fechaFin="@Model.FechaFin">
+                    <i class="bi bi-chevron-left"></i>
+                </a>
+            </li>
+
+            @for (int i = inicio; i <= fin; i++)
+            {
+                <li class="page-item @(i == paginaActual ? "active" : "")">
+                    <a class="page-link"
+                       asp-route-pagina="@i"
+                       asp-route-fechaInicio="@Model.FechaInicio"
+                       asp-route-fechaFin="@Model.FechaFin">
+                        @i
+                    </a>
+                </li>
+            }
+
+            <li class="page-item @(paginaActual == totalPaginas ? "disabled" : "")">
+                <a class="page-link"
+                   asp-route-pagina="@(paginaActual + 1)"
+                   asp-route-fechaInicio="@Model.FechaInicio"
+                   asp-route-fechaFin="@Model.FechaFin">
+                    <i class="bi bi-chevron-right"></i>
+                </a>
+            </li>
+
+            <li class="page-item @(paginaActual == totalPaginas ? "disabled" : "")">
+                <a class="page-link"
+                   asp-route-pagina="@totalPaginas"
+                   asp-route-fechaInicio="@Model.FechaInicio"
+                   asp-route-fechaFin="@Model.FechaFin">
+                    <i class="bi bi-chevron-double-right"></i>
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+}
+
+<div id="overlayPrecio" class="overlay-precio d-none">
+    <div class="overlay-content">
+        <div id="contenidoPrecio"></div>
+    </div>
 </div>

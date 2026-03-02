@@ -1,0 +1,37 @@
+﻿@model ComedorSistema.Models.ViewModels.EditarPrecioVM
+
+<h5 class="mb-1">
+    <i class="bi bi-cash-coin"></i> Editar precio de comida
+</h5>
+
+@if (Model.FechaActualizacion != null)
+{
+    <small class="text-muted d-block mb-3">
+        Última actualización:
+        @Model.FechaActualizacion.Value.ToString("dd/MM/yyyy HH:mm")
+    </small>
+}
+
+<form id="formPrecio">
+    <div class="mb-3">
+        <label class="form-label">Nuevo precio</label>
+        <input type="number"
+               step="0.01"
+               class="form-control"
+               name="nuevoPrecio"
+               value="@Model.Precio" />
+    </div>
+
+    <div class="d-flex justify-content-end gap-2">
+        <button type="button"
+                class="btn btn-secondary"
+                onclick="cerrarOverlay()">
+            Cancelar
+        </button>
+
+        <button type="submit"
+                class="btn btn-success">
+            Guardar
+        </button>
+    </div>
+</form>

@@ -30,10 +30,12 @@ namespace ComedorSistema.Controllers
         #region QRscanner
 
         [HttpPost("imagen")]
-        public async Task<IActionResult> ProcesarImagen(IFormFile image)
+        public async Task<IActionResult> ProcesarImagen(
+            IFormFile image,
+            [FromForm] decimal? precioManual)
         {
             if (image == null || image.Length == 0)
-                return BadRequest(new { success = false, message = "No se envió ninguna imagen" });
+                return BadRequest(new { message = "No se envió ninguna imagen" });
 
             using var ms = new MemoryStream();
             await image.CopyToAsync(ms);
@@ -55,7 +57,8 @@ namespace ComedorSistema.Controllers
             {
                 CodigoQr = decodedText,
                 FechaLectura = DateTime.Now,
-                Usuario = "DesdeHTMLWebQR"
+                Usuario = "DesdeHTMLWebQR",
+                PrecioManual=precioManual
             };
 
             return Registrar(vm);
@@ -133,19 +136,39 @@ namespace ComedorSistema.Controllers
                     });
                 }
 
-                // Precio actual
-                var precioActual = _context.Precios
+            decimal precioFinal;
+
+            if (vm.PrecioManual.HasValue && vm.PrecioManual.Value > 0)
+            {
+                precioFinal = vm.PrecioManual.Value;
+            }
+            else
+            {
+                var precioDb = _context.Precios
                     .OrderByDescending(p => p.FechaActualizacion)
                     .Select(p => p.Precio1)
                     .FirstOrDefault();
 
-                // Registrar pedido
-                var pedido = new PedidoComidum
+                if (!precioDb.HasValue)
+                    return BadRequest(new { mensaje = "No hay precio configurado en el sistema" });
+
+                precioFinal = precioDb.Value;
+            }
+
+
+            // Precio actual
+            /*var precioActual = _context.Precios
+                .OrderByDescending(p => p.FechaActualizacion)
+                .Select(p => p.Precio1)
+                .FirstOrDefault();*/
+
+            // Registrar pedido
+            var pedido = new PedidoComidum
                 {
                     IdPersona = idPersona,
                     Nombre = data.nombre,
                     Departamento = data.departamento,
-                    Precio = precioActual,
+                    Precio = precioFinal,
                     Cantidad = 1,
                     FechaCompra = DateTime.Now,
                     FechaCreacion = DateTime.Now
@@ -159,7 +182,8 @@ namespace ComedorSistema.Controllers
                     mensaje = "Consumo registrado correctamente",
                     persona = data.nombre,
                     departamento = data.departamento,
-                    precio = precioActual
+                    precio = precioFinal,
+                    precioManual= vm.PrecioManual.HasValue
                 });
             }
             #endregion
@@ -195,6 +219,7 @@ namespace ComedorSistema.Controllers
                 {
                     nombre = x.Nombre,
                     precio=x.Precio,
+                    folio=x.Id,
                     hora = x.FechaCompra.Value.ToString("HH:mm:ss")
                 })
                 .ToList();

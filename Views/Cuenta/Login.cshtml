@@ -1,0 +1,89 @@
+﻿@model RecursosHumanos.Models.ViewModels.Login.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_LayoutLogin";
+}
+
+<div class="login-container">
+    <div class="login-card shadow-sm">
+
+        <div class="login-header">
+            <i class="bi bi-person-circle"></i>
+            <h5>Acceso al sistema</h5>
+        </div>
+
+        <form asp-action="Login" method="post" id="loginForm">
+            @Html.AntiForgeryToken()
+
+            <div asp-validation-summary="ModelOnly" class="alert alert-danger py-2 small"></div>
+
+            <div class="mb-3">
+                <label asp-for="Username" class="form-label">Usuario</label>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <i class="bi bi-person"></i>
+                    </span>
+                    <input asp-for="Username" class="form-control" autocomplete="username" />
+                </div>
+                <span asp-validation-for="Username" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label">Contraseña</label>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <i class="bi bi-lock"></i>
+                    </span>
+                    <input asp-for="Password" type="password" class="form-control" autocomplete="current-password" />
+                </div>
+                <span asp-validation-for="Password" class="text-danger small"></span>
+            </div>
+
+            <div class="form-check mb-3">
+                <input asp-for="RememberMe" class="form-check-input" />
+                <label asp-for="RememberMe" class="form-check-label">
+                    Recordarme
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-login w-100">
+                <i class="bi bi-box-arrow-in-right me-1"></i>
+                Entrar
+            </button>
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        const form = document.getElementById("loginForm");
+        const btn = form.querySelector("button[type=submit]");
+        const originalText = btn.innerHTML;
+
+        form.addEventListener("submit", function (e) {
+
+            if (window.jQuery && $(form).data("validator") && !$(form).valid()) {
+                e.preventDefault();
+                return;
+            }
+
+            btn.disabled = true;
+            btn.innerHTML =
+                '<span class="spinner-border spinner-border-sm me-2"></span>Validando...';
+        });
+
+        window.addEventListener("load", () => {
+            const hasErrors =
+                document.querySelectorAll(".field-validation-error").length > 0;
+
+            if (hasErrors) {
+                btn.disabled = false;
+                btn.innerHTML = originalText;
+            }
+        });
+    </script>
+}

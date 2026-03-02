@@ -22,4 +22,6 @@ public partial class PedidoComidum
     public DateTime? FechaCompra { get; set; }
 
     public DateTime? FechaCreacion { get; set; }
+
+    public string? Servicio { get; set; }
 }

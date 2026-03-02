@@ -3,30 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\views\\lectorgenerador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:views\\lectorgenerador\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\models\\pedidocomidum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:models\\pedidocomidum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedHeight": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LectorGeneradorAPIController.cs",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorAPIController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LectorGeneradorAPIController.cs",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorAPIController.cs",
-              "RelativeToolTip": "Controllers\\LectorGeneradorAPIController.cs",
-              "ViewState": "AgIAALgAAAAAAAAAAAArwL8AAABDAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Views\\LectorGenerador\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\LectorGenerador\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Views\\LectorGenerador\\Index.cshtml",
+              "RelativeToolTip": "Views\\LectorGenerador\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAnwGgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-02T22:54:59.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LectorGeneradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LectorGeneradorController.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
+              "RelativeToolTip": "Controllers\\LectorGeneradorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQBAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T17:26:42.096Z",
+              "WhenOpened": "2026-03-02T22:54:34.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidoComidum.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Models\\PedidoComidum.cs",
+              "RelativeDocumentMoniker": "Models\\PedidoComidum.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Models\\PedidoComidum.cs",
+              "RelativeToolTip": "Models\\PedidoComidum.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T22:53:53.472Z",
               "EditorCaption": ""
             }
           ]

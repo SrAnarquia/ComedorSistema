@@ -1,0 +1,46 @@
+﻿.precio-actual-box {
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+
+/* Overlay */
+.overlay-precio {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content {
+    background: #fff;
+    border-radius: 10px;
+    width: 420px;
+    padding: 20px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.filtros-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* IZQUIERDA */
+.filtros-form {
+    flex: 1;
+}
+
+/* DERECHA (PRECIO) */
+.precio-actual-box {
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+
+small.text-muted {
+    font-size: 0.8rem;
+}

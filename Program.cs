@@ -43,7 +43,7 @@ app.UseAuthorization();
 // Mapear rutas MVC
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}"
+    pattern: "{controller=Cuenta}/{action=Login}/{id?}"
 );
 
 // Mapear rutas API

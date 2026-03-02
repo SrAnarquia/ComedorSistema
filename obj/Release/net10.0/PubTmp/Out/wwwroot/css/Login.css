@@ -1,0 +1,77 @@
+﻿/* ===== BASE ===== */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background-color: #f4f6f9;
+    color: #1e293b;
+}
+
+/* ===== CONTENEDOR ===== */
+.login-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== CARD ===== */
+.login-card {
+    width: 380px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* ===== HEADER ===== */
+.login-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: #1e1e2f;
+}
+
+    .login-header i {
+        font-size: 28px;
+    }
+
+    .login-header h5 {
+        margin: 0;
+        font-weight: 600;
+    }
+
+/* ===== INPUTS ===== */
+.input-group-text {
+    background: #f1f5f9;
+    border: 1px solid #d1d5db;
+}
+
+.form-control {
+    border: 1px solid #d1d5db;
+}
+
+    .form-control:focus {
+        border-color: #1e1e2f;
+        box-shadow: 0 0 0 0.15rem rgba(30,30,47,.15);
+    }
+/* ===== BOTÓN LOGIN ===== */
+.btn-login {
+    background: #1e1e2f;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background .2s ease, color .2s ease;
+}
+
+    .btn-login:hover,
+    .btn-login:focus,
+    .btn-login:active {
+        background: #2d2d44;
+        color: #ffffff !important; /* 👈 fuerza el texto blanco */
+    }
+
+/* ===== VALIDACIONES ===== */
+.text-danger {
+    font-size: 0.8rem;
+}
