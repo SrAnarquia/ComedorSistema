@@ -1,14 +1,10 @@
 wwwroot\audio\Alert.mp3
 wwwroot\audio\Success.mp3
-wwwroot\css\Index.css
-wwwroot\css\Login.css
 wwwroot\css\qr-layout-Lectura.css
 wwwroot\css\qr-layout.css
 wwwroot\css\qr-Lectura.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\img\money.png
-wwwroot\js\OverlayEditar.js
 wwwroot\js\qr-admin.js
 wwwroot\js\qr-autozoom.js
 wwwroot\js\qr-efectos.js
@@ -76,6 +72,10 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\css\Index.css
+wwwroot\js\OverlayEditar.js
+wwwroot\img\money.png
+wwwroot\css\Login.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-layout-Lectura.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-layout.css
 C:\Users\Jonathan Corpus\Desktop\MVP\ComedorSistema\wwwroot\css\qr-Lectura.css

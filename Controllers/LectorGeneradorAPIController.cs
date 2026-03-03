@@ -32,7 +32,7 @@ namespace ComedorSistema.Controllers
         [HttpPost("imagen")]
         public async Task<IActionResult> ProcesarImagen(
             IFormFile image,
-            [FromForm] decimal? precioManual)
+            [FromForm] decimal? precioManual,[FromForm] string? servicio, [FromForm] string? descripcion)
         {
             if (image == null || image.Length == 0)
                 return BadRequest(new { message = "No se envió ninguna imagen" });
@@ -58,7 +58,9 @@ namespace ComedorSistema.Controllers
                 CodigoQr = decodedText,
                 FechaLectura = DateTime.Now,
                 Usuario = "DesdeHTMLWebQR",
-                PrecioManual=precioManual
+                PrecioManual=precioManual,
+                Servicio=servicio,
+                Descripcion=descripcion
             };
 
             return Registrar(vm);
@@ -136,6 +138,7 @@ namespace ComedorSistema.Controllers
                     });
                 }
 
+             //Comprobacion de precio final 
             decimal precioFinal;
 
             if (vm.PrecioManual.HasValue && vm.PrecioManual.Value > 0)
@@ -155,6 +158,9 @@ namespace ComedorSistema.Controllers
                 precioFinal = precioDb.Value;
             }
 
+            //Comprobacion de servicio
+            if (vm.Servicio == null || string.IsNullOrEmpty(vm.Servicio))
+                return BadRequest(new { mensaje = "Servicio Invalio, intentar mas tarde" });
 
             // Precio actual
             /*var precioActual = _context.Precios
@@ -171,7 +177,10 @@ namespace ComedorSistema.Controllers
                     Precio = precioFinal,
                     Cantidad = 1,
                     FechaCompra = DateTime.Now,
-                    FechaCreacion = DateTime.Now
+                    FechaCreacion = DateTime.Now,
+                    Servicio=vm.Servicio,
+                    Descripcion=vm.Descripcion
+                    
                 };
 
                 _context.PedidoComida.Add(pedido);
@@ -183,7 +192,8 @@ namespace ComedorSistema.Controllers
                     persona = data.nombre,
                     departamento = data.departamento,
                     precio = precioFinal,
-                    precioManual= vm.PrecioManual.HasValue
+                    precioManual= vm.PrecioManual.HasValue,
+                    descripcion= vm.Descripcion
                 });
             }
             #endregion
@@ -220,6 +230,9 @@ namespace ComedorSistema.Controllers
                     nombre = x.Nombre,
                     precio=x.Precio,
                     folio=x.Id,
+                    cantidad=x.Cantidad,
+                    servicio=x.Servicio,
+                    descripcion=x.Descripcion,
                     hora = x.FechaCompra.Value.ToString("HH:mm:ss")
                 })
                 .ToList();

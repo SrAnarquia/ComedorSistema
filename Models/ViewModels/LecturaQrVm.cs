@@ -7,5 +7,10 @@
         public string Usuario { get; init; } = string.Empty;
 
         public decimal? PrecioManual { get; set; }
+        
+        public string? Servicio { get; set; }
+
+        public string? Descripcion { get; set; }
+
     }
 }

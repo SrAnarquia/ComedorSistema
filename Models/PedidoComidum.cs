@@ -11,7 +11,7 @@ public partial class PedidoComidum
 
     public string? Nombre { get; set; }
 
-    public int? IdDepartamento { get; set; }
+    //public int? IdDepartamento { get; set; }
 
     public string? Departamento { get; set; }
 
@@ -24,4 +24,6 @@ public partial class PedidoComidum
     public DateTime? FechaCreacion { get; set; }
 
     public string? Servicio { get; set; }
+
+    public string? Descripcion { get; set; }
 }
