@@ -32,7 +32,7 @@ namespace ComedorSistema.Controllers
         [HttpPost("imagen")]
         public async Task<IActionResult> ProcesarImagen(
             IFormFile image,
-            [FromForm] decimal? precioManual,[FromForm] string? servicio, [FromForm] string? descripcion)
+            [FromForm] decimal? precioManual,[FromForm] string? servicio, [FromForm] string? descripcion, [FromForm] int? cantidad=null)
         {
             if (image == null || image.Length == 0)
                 return BadRequest(new { message = "No se envió ninguna imagen" });
@@ -60,7 +60,8 @@ namespace ComedorSistema.Controllers
                 Usuario = "DesdeHTMLWebQR",
                 PrecioManual=precioManual,
                 Servicio=servicio,
-                Descripcion=descripcion
+                Descripcion=descripcion,
+                Cantidad=cantidad
             };
 
             return Registrar(vm);
@@ -148,6 +149,7 @@ namespace ComedorSistema.Controllers
             else
             {
                 var precioDb = _context.Precios
+                     .Where(p=>p.PrecioServicio==vm.Servicio)
                     .OrderByDescending(p => p.FechaActualizacion)
                     .Select(p => p.Precio1)
                     .FirstOrDefault();
@@ -162,6 +164,11 @@ namespace ComedorSistema.Controllers
             if (vm.Servicio == null || string.IsNullOrEmpty(vm.Servicio))
                 return BadRequest(new { mensaje = "Servicio Invalio, intentar mas tarde" });
 
+            //Comprobacion de cantidad
+            int CantidadFinal = (vm.Cantidad.HasValue && vm.Cantidad.Value > 0)
+                    ? vm.Cantidad.Value
+                    : 1;
+
             // Precio actual
             /*var precioActual = _context.Precios
                 .OrderByDescending(p => p.FechaActualizacion)
@@ -175,12 +182,12 @@ namespace ComedorSistema.Controllers
                     Nombre = data.nombre,
                     Departamento = data.departamento,
                     Precio = precioFinal,
-                    Cantidad = 1,
+                    Cantidad = CantidadFinal,
                     FechaCompra = DateTime.Now,
                     FechaCreacion = DateTime.Now,
-                    Servicio=vm.Servicio,
-                    Descripcion=vm.Descripcion
-                    
+                    Servicio = vm.Servicio,
+                    Descripcion = vm.Descripcion
+
                 };
 
                 _context.PedidoComida.Add(pedido);
@@ -244,6 +251,31 @@ namespace ComedorSistema.Controllers
             });
         }
 
+
+
+        [HttpGet("precios")]
+        public IActionResult Precios() 
+        {
+
+            var precios= _context
+                .Precios
+                .Select(x => new 
+                {
+                    Servicio=x.PrecioServicio,
+                    PrecioActual= x.Precio1,
+                    
+                }
+                )
+                .ToList();
+
+
+            return Ok(new
+            { 
+                mensaje= $"Precios fecha: {DateTime.Now.ToString("yyyy/MM/dd")}",
+                precios
+            });
+
+        }
         #endregion 
 
         #region GenerarFirmas
@@ -267,5 +299,10 @@ namespace ComedorSistema.Controllers
 
         */
         #endregion
+
+
+
+
+
     }
 }

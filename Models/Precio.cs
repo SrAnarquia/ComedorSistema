@@ -12,4 +12,6 @@ public partial class Precio
     public decimal? PrecioAnterior { get; set; }
 
     public DateTime? FechaActualizacion { get; set; }
+
+    public string? PrecioServicio { get; set; }
 }

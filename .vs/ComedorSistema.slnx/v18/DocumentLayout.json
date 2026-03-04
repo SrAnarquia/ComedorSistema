@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LectorGeneradorAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorAPIController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LectorGeneradorAPIController.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorAPIController.cs",
+              "RelativeToolTip": "Controllers\\LectorGeneradorAPIController.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAAwBYBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T21:30:45.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

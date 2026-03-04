@@ -53,6 +53,16 @@
   },
   {
     "ContainingType": "ComedorSistema.Controllers.LectorGeneradorApiController",
+    "Method": "Precios",
+    "RelativePath": "api/lector/precios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ComedorSistema.Controllers.LectorGeneradorApiController",
     "Method": "Pruebas",
     "RelativePath": "api/lector/pruebas",
     "HttpMethod": "GET",
