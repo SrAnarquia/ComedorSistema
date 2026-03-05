@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\comedorsistema\\controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{374EB9AA-4B87-7DB5-B273-3B19664AB9A1}|ComedorSistema.csproj|solutionrelative:controllers\\lectorgeneradorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LectorGeneradorController.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LectorGeneradorController.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorController.cs",
+              "RelativeToolTip": "Controllers\\LectorGeneradorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T21:41:51.266Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "Controllers\\LectorGeneradorAPIController.cs",
               "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\ComedorSistema\\Controllers\\LectorGeneradorAPIController.cs",
               "RelativeToolTip": "Controllers\\LectorGeneradorAPIController.cs",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAAwBYBAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T21:30:45.728Z",
               "EditorCaption": ""
